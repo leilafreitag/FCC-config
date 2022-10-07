@@ -1,3 +1,4 @@
+
 ! main03.cmnd.
 ! This file contains commands to be read in for a Pythia8 run.
 ! Lines not beginning with a letter or digit are comments.
@@ -8,9 +9,10 @@
 Random:setSeed = on
 Main:timesAllowErrors = 5          ! how many aborts before run stops
 Stat:showProcessLevel = on
+Main:numberOfEvents = 50000	  ! number of events to generate
 
 ! 2) Settings related to output in init(), next() and stat().
-Init:showChangedSettings = on      ! list changed settings
+Init:showChangedSettings = on	   ! list changed settings
 Init:showChangedParticleData = off ! list changed particle data
 Next:numberCount = 100             ! print message every n events
 Next:numberShowInfo = 1            ! print event information n times
