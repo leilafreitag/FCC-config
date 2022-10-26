@@ -8,6 +8,7 @@
 Random:setSeed = on
 Main:timesAllowErrors = 5          ! how many aborts before run stops
 Stat:showProcessLevel = on
+Main:numberOfEvents = 50000       ! number of events to generate
 
 ! 2) Settings related to output in init(), next() and stat().
 Init:showChangedSettings = on      ! list changed settings
